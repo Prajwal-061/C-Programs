@@ -1,0 +1,4 @@
+InputSize OuterSteps InnerSteps
+100 99 2273
+200 199 10419
+300 299 21567

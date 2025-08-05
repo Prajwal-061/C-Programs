@@ -2,10 +2,16 @@
 
 int main()
 {
-    int arr[] = {5, 2, 9, 1, 5, 6};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    int i, j, key;
+    int n, i, j, key;
     int outer_steps = 0, inner_steps = 0;
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+    int arr[n];
+    printf("Enter %d elements: ", n);
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
 
     printf("Original array: ");
     for (i = 0; i < n; i++)
