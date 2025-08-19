@@ -42,7 +42,7 @@ int main()
 {
     srand(time(NULL)); // Seed once for random generation
 
-    int sizes[] = {100, 200, 300};
+    int sizes[] = {100, 200, 300, 400, 500, 600};
     int n = sizeof(sizes) / sizeof(sizes[0]);
 
     FILE *fout = fopen("sort_steps_output.txt", "w"); // Overwrite file on each run

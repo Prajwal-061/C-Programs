@@ -3,5 +3,3 @@ Decimal: 2 -> Binary: 10
 Decimal: 3 -> Binary: 11
 Decimal: 4 -> Binary: 100
 Decimal: 5 -> Binary: 101
-Decimal: 6 -> Binary: 110
-Decimal: 7 -> Binary: 111

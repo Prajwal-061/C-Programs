@@ -7,6 +7,7 @@ void decimalToBinary(int num, FILE *destFile)
     if (num > 1)
         decimalToBinary(num / 2, destFile);
     fprintf(destFile, "%d", num % 2);
+    printf("%d", num % 2);
 }
 
 int main()
@@ -38,11 +39,18 @@ int main()
     while (count < n && fscanf(srcFile, "%d", &number) == 1)
     {
         fprintf(destFile, "Decimal: %d -> Binary: ", number);
+        printf("Decimal: %d -> Binary: ", number);
         if (number == 0)
+        {
             fprintf(destFile, "0");
+            printf("0");
+        }
         else
+        {
             decimalToBinary(number, destFile);
+        }
         fprintf(destFile, "\n");
+        printf("\n");
         count++;
     }
 

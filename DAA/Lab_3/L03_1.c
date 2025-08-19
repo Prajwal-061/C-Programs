@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define SIZE 200
+#define SIZE 100
 
 void generate_random_file(const char *filename)
 {

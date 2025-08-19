@@ -8,8 +8,13 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
+<<<<<<< HEAD
       "cwd": "c:/Users/KIIT0001/Desktop/DAA/Lab_1",
       "program": "c:/Users/KIIT0001/Desktop/DAA/Lab_1/build/Debug/outDebug",
+=======
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+>>>>>>> 6e685ac262768e007c80db2770b75bd7328ea7b1
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
